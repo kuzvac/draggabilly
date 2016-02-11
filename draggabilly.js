@@ -441,8 +441,6 @@ proto.destroy = function() {
   this.disable();
   // reset styles
   this.element.style[ transformProperty ] = '';
-  this.element.style.left = '';
-  this.element.style.top = '';
   this.element.style.position = '';
   // unbind handles
   this.unbindHandles();
